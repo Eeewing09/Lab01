@@ -84,3 +84,23 @@ Console.WriteLine($"Цена без НДС: {productPrice}, с НДС ({VatRate:
 */
 //productPrice = 1000, ПОТОМУ, ЧТО ЦЕНА ПРОДУКТА 1000
 
+
+const string FIO = "Науменко Семён";
+string groupName = "ИСП-251";
+int courseNumber = 2;
+int special = 09.20.07;
+bool stepend = true;
+int works = 3;
+double sred_bal = 4.67;
+double stp = 4.0;
+int learn_week = 16
+Console.WriteLine("   ВИЗИТНАЯ КАРТОЧКА СТУДЕНТА  ");
+Console.WriteLine($"ФИО:    {FIO}");
+Console.WriteLine($"Группа:    {groupName}");
+Console.WriteLine($"Курс:    {courseNumber}");
+Console.WriteLine($"Специальность:    {special}");
+
+Console.WriteLine($"Средний балл за {works} работы: {sred_bal}");
+Console.WriteLine($"Стипендия положена (>= {stp}): {stepend}");
+
+Console.WriteLine($"Учебных недель осталось в семестре:{learn_week}");
